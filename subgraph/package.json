@@ -4,15 +4,25 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ SarathiNanavati/celo-nft-marketplace",
-    "create-local": "graph create --node http://localhost:8020/ SarathiNanavati/celo-nft-marketplace",
-    "remove-local": "graph remove --node http://localhost:8020/ SarathiNanavati/celo-nft-marketplace",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 SarathiNanavati/celo-nft-marketplace",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ sarathinanavati/celo-nft-marketplace",
+    "create-local": "graph create --node http://localhost:8020/ sarathinanavati/celo-nft-marketplace",
+    "remove-local": "graph remove --node http://localhost:8020/ sarathinanavati/celo-nft-marketplace",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 sarathinanavati/celo-nft-marketplace",
     "test": "graph test"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.33.0",
     "@graphprotocol/graph-ts": "0.27.0"
   },
-  "devDependencies": { "matchstick-as": "0.5.0" }
+  "devDependencies": {
+    "matchstick-as": "0.5.0"
+  }
 }
+
+
+// Build completed: QmPqKXRRPHLRJUfFZbZBHoZQs5TaPDysnfxzR5bQknmZX8
+
+// Deployed to https://thegraph.com/explorer/subgraph/sarathinanavati/celo-nft-marketplace
+
+// Subgraph endpoints:
+// Queries (HTTP):     https://api.thegraph.com/subgraphs/name/sarathinanavati/celo-nft-marketplace
